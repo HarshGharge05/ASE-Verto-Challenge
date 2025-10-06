@@ -1,0 +1,12 @@
+services:
+  mongodb:
+    image: mongo:7.0.5
+    container_name: verto_mongodb
+    ports:
+      - "27019:27017"
+    environment:
+      MONGO_INITDB_DATABASE: productdb
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: verto
+    volumes:
+      - ./docker/mongo-product-db:/data/db
