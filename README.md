@@ -56,9 +56,12 @@ Bonus Points
     - Token interceptor for refreshing expired access tokens
     - User Profile modal and logout functionality
     - Custom branding (logo and name)
-
+      
 
 ## 🧩 High-Level Design (HLD)
+
+<img width="727" height="500" alt="High-Level Design (HLD)" src="https://github.com/user-attachments/assets/ccb8afa2-5eb9-429c-80b4-a07a14073a23" />
+
 ## 🧰 Tech Stack
 
 - Frontend : 
